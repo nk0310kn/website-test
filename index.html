@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<title>日本〇〇学会</title>
+<meta name="Description" content="日本〇〇学会" />
+<meta name="Keywords" content="キーワード,〇〇,××" />
+
+<!-- favicon は無し
+<link rel="icon" href="http://ここにサイトurlを記入/favicon.ico" type="image/x-icon" />
+<link rel="shortcut icon" type="img/x-icon" href="http://ここにサイトurlを記入/favicon.ico" />
+-->
+
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/content.css">
+<!--左側のメニュー-->
+<link rel="stylesheet" href="css/vertical-responsive-menu.css" />
+<!--右上のメニュー-->
+<link rel="stylesheet" href="css/nav-layout.css">
+<!--ページ内メニュー-->
+<link rel="stylesheet" href="css/horizontal_menu.css">
+<!--googlewebフォント-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+<!--アイコンwebフォント-->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+<!--画像の整列-->
+<link rel="stylesheet" href="css/grid.css">
+<!--スライドショー-->
+<link rel="stylesheet" href="css/full-width-slider.css" />
+<!--[if lt IE 9]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+<![endif]-->
+</head>
+
+<body>
+<noscript>
+<p>※このページはJavaScriptを使用しています。JavaScript設定を有効にしてご覧ください。</p>
+</noscript>
+
+<header class="header">
+  <h1> <span class="h1_1"> <a href="index.html" title="トップページへ"><img src="https://www.metsoc.jp/default/wp-content/uploads/2014/07/msjseal2c-100.png" width="100" height="100" alt="トップページへ" /></a> </span>
+</h1>
+
+  
+  <a href="#" class="nav-button"><i class="fa fa-ellipsis-v"></i></a>
+  <div class="nav_right">
+    <div class="nav">
+      <ul>
+        <li> <a href="https://www.metsoc.jp/contact">お問い合わせ</a></li>
+        <li> <a href="https://www.metsoc.or.jp/accounts/login/?next=/membersite/">会員サイトログイン</a></li>
+        <li> <a href="https://www.metsoc.jp/membership-2/update-2">会員登録情報の変更</a></li>
+        <!-- 使用せず
+        <li class="nav-submenu"> <a href="#">アカウントサービス</a>
+          <ul>
+            <li> <a href="#">アカウントサービス</a></li>
+            <li> <a href="#">購入履歴</a></li>
+            <li> <a href="#">お気に入り</a></li>
+          </ul>
+        </li>
+         使用せず -->
+      </ul>
+    </div>
+  </div>
+  <button type="button" id="toggleMenu" class="toggle_menu"> <i class="fa fa-bars"></i> </button>
+
+</header>
+
+<!--左側のメニュー-->
+<nav class="vertical_nav leftnav">
+  <ul id="js-menu" class="menu">
+    <li class="menu--item">
+      <label class="menu--link"> <span class="menu--label"><a href="https://www.metsoc.jp/about/overview" class="main_menu--link">日本〇〇学会の案内</a></span> </label>
+    </li>
+    <li class="menu--item">
+      <label class="menu--link"> <span class="menu--label"><a href="https://www.metsoc.jp/meetings" class="main_menu--link">大会・講演会</a></span> </label>
+    </li>
+    <li class="menu--item  menu--item__has_sub_menu">
+      <label class="menu--link"> <span class="menu--label"><a href="#" class="main_menu--link">刊行物</a></span> </label>
+      <ul class="sub_menu">
+        <li class="sub_menu--item"> <a href="https://www.metsoc.jp/tenki/" class="sub_menu--link">天気(機関紙)</a></li>
+        <li class="sub_menu--item"> <a href="http://jmsj.metsoc.jp" class="sub_menu--link">気象集誌(論文誌)(JMSJ)</a></li>
+        <li class="sub_menu--item"> <a href="shop.html" class="sub_menu--link">SHOP-CATEGORY3</a></li>
+      </ul>
+    </li>
+
+    <li class="menu--item">
+      <label class="menu--link"> <span class="menu--label"><a href="https://www.metsoc.jp/topics-2-2-2/calendar" class="main_menu--link">行事予定</a></span> </label>
+    </li>
+
+    <li class="menu--item  menu--item__has_sub_menu">
+      <label class="menu--link"> <span class="menu--label"><a href="#" class="main_menu--link">会員の皆様へ</a></span> </label>
+      <ul class="sub_menu">
+        <li class="sub_menu--item"> <a href="https://www.metsoc.or.jp/accounts/login/?next=/membersite/" class="sub_menu--link">会員サイトログイン</a></li>
+        <li class="sub_menu--item"> <a href="https://www.metsoc.jp/about/for_members" class="sub_menu--link">会員向け情報</a></li>
+        <li class="sub_menu--item"> <a href="menu.html" class="sub_menu--link">MENU3</a></li>
+      </ul>
+    </li>
+
+
+    <li class="menu--item  menu--item__has_sub_menu">
+      <label class="menu--link"> <span class="menu--label"><a href="#" class="main_menu--link">MENU</a></span> </label>
+      <ul class="sub_menu">
+        <li class="sub_menu--item"> <a href="menu.html" class="sub_menu--link">MENU1</a></li>
+        <li class="sub_menu--item"> <a href="menu.html" class="sub_menu--link">MENU2</a></li>
+        <li class="sub_menu--item"> <a href="menu.html" class="sub_menu--link">MENU3</a></li>
+      </ul>
+    </li>
+
+  </ul>
+</nav>
+
+<!-- トップページのスライド画像 -->
+<div class="wrapper">
+  <div class="top_slide">
+    <div id="slider1_container" class="slider1_container">
+      <div u="slides" class="fws_slides">
+
+        <!-- slide 1 -->
+        <div> <a href="https://www.youtube.com/watch?v=rx4FQPB6G2A"><img u="image" src="https://www.metsoc.jp/default/wp-content/uploads/2021/11/20210521_msj2021spring_video_slider.png" alt="学術研究・社会貢献・科学行政に関する提言展望"/></a>
+        </div>
+
+        <!-- slide 2 -->
+        <div> <a href="https://www.metsoc.jp/meetings/2023a"><img u="image" src="https://www.metsoc.jp/default/wp-content/uploads/2023/04/Banner_MSJ2023ajp-1024x341.jpeg" alt="2023年秋季大会"/></a>
+        </div>
+
+        <!-- slide 3 -->
+        <div> <a href="https://www.metsoc.jp/membership-2"> <img u="image" src="https://www.metsoc.jp/default/wp-content/uploads/2018/01/msj_membership.jpg" alt="入会案内" /></a>
+        </div>
+
+        <!-- slide 4 -->
+        <div> <a href="https://www.metsoc.jp/manabi/"> <img u="image" src="https://www.metsoc.jp/default/wp-content/uploads/2020/04/msj_manabi.banner.png" alt="気象を学ぶ"/></a>
+        </div>
+
+      </div>
+      <div u="navigator" class="jssorb21">
+        <div u="prototype"></div>
+      </div>
+      <span u="arrowleft" class="jssora21l"> </span> <span u="arrowright" class="jssora21r"> </span> </div>
+    <!-- / .top_slide --> 
+  </div>
+
+
+  <div class="main">
+    <div class="content">
+      <div class="top_content_inner">
+        <article>
+          <h2>(後者)日本〇〇学会 HOME</h2>
+          <!-- 新着情報 -->
+          <div class="grid_wrap" style="margin-top:30px">
+            <div class="grid_box">
+              <div class="grid_box_info">
+                <div class="inner">
+                  <h3 class="wh_new">新着情報</h3>
+                  <dl class="newlist">
+                    <dt>2023/08/01</dt>
+                    <dd><a href="#">〇〇の公募</a></dd>
+                    <dt>2023/07/31</dt>
+                    <dd><a href="#">〇〇シンポジウムの開催</a></dd>
+                    <dt>xxxx/xx/xx</dt>
+                    <dd>テキストテキストテキストテキストテキスト</dd>
+                    <dt>xxxx/xx/xx</dt>
+                    <dd>テキストテキストテキストテキストテキスト</dd>
+                  </dl>
+                </div>
+              </div>
+              <p class="grid_box_txt_p">&nbsp;</p>
+            </div>
+
+          <!-- 会員へのお知らせ -->
+          <div class="grid_wrap" style="margin-top:30px">
+            <div class="grid_box">
+              <div class="grid_box_info">
+                <div class="inner">
+                  <h3 class="wh_new">会員へのお知らせ</h3>
+                  <dl class="newlist">
+                    <dt>2023/08/01</dt>
+                    <dd><a href="#">XXXX年度大会の講演参加申し込みを開始しました</a></dd>
+                    <dt>2023/08/01</dt>
+                    <dd><a href="#">XXXX年度専門分科会の申込締め切りはX月Y日です．</a></dd>
+                    <dt>xxxx/xx/xx</dt>
+                    <dd>テキストテキストテキストテキストテキスト</dd>
+                    <dt>xxxx/xx/xx</dt>
+                    <dd>テキストテキストテキストテキストテキスト</dd>
+                  </dl>
+                </div>
+              </div>
+              <p class="grid_box_txt_p">&nbsp;</p>
+
+
+           <h3>委員会</h3>
+            <!-- 教育と普及委員会 -->
+
+            <!-- 気象教育セミナー -->
+            <div class="grid_box">
+              <div class="view"> <img src="https://www.metsoc.jp/default/wp-content/uploads/2021/11/education-all_banner.jpg" alt="PRODUCTS 画像"/> <a href="https://www.metsoc.jp/about/educational_activities/met_edu_meeting" title="PRODUCTS">
+                <div class="mask">
+                  <p><i class="fa fa-external-link"></i>&nbsp;&nbsp;Open</p>
+                </div>
+                </a> 
+               </div>
+              <div class="bottom_txt_top">
+                <p class="grid_box_txt_top"><a href="https://www.metsoc.jp/about/educational_activities/met_edu_meeting" title="PRODUCTS" target="_blank">2023年1月8日（日）開催</a></p>
+              </div>
+            </div>
+
+
+            <!-- ジュニアセッション -->
+            <div class="grid_box">
+              <div class="view"> <img src="https://www.metsoc.jp/default/wp-content/uploads/2021/11/junior-all_banner.jpg" alt="PRODUCTS画像"/> <a href="https://www.metsoc.jp/about/educational_activities/junior_session/junior_session_2023/intro" title="PRODUCTS">
+                <div class="mask">
+                  <p><i class="fa fa-external-link"></i>&nbsp;&nbsp;Open</p>
+                </div>
+                </a> 
+              </div>
+              <div class="bottom_txt_top">
+                <p class="grid_box_txt_top"><a href="https://www.metsoc.jp/about/educational_activities/junior_session/junior_session_2023/intro" title="PRODUCTS" target="_blank">2023年5月16日（火），17日（水）</a></p>
+              </div>
+            </div>
+
+
+
+            <!-- 公開気象講演会 -->
+            <div class="grid_box">
+              <div class="view"> <img src="https://www.metsoc.jp/default/wp-content/uploads/2021/11/open_seminor_banner.jpg" alt="PRODUCTS画像"/> <a href="https://www.metsoc.jp/about/educational_activities/open_seminar" title="PRODUCTS">
+                <div class="mask">
+                  <p><i class="fa fa-external-link"></i>&nbsp;&nbsp;Open</p>
+                </div>
+                </a> 
+              </div>
+              <div class="bottom_txt_top">
+                <p class="grid_box_txt_top"><a href="https://www.metsoc.jp/about/educational_activities/open_seminar" title="PRODUCTS" target="_blank">2022年11月13日（日）</a></p>
+              </div>
+            </div>
+
+
+            <!-- 気象災害委員会 -->
+            <div class="grid_box">
+              <div class="view"> <img src="https://www.metsoc.jp/default/wp-content/uploads/2020/09/msj_kisho_saigai_tokusetsu.png" alt="気象災害委員会"/> <a href="https://sites.google.com/metsoc.or.jp/saigai-tokusetu/" title="PRODUCTS">
+                <div class="mask">
+                  <p><i class="fa fa-external-link"></i>&nbsp;&nbsp;Open</p>
+                </div>
+                </a> 
+               </div>
+              <div class="bottom_txt_top">
+                <p class="grid_box_txt_top"><a href="https://sites.google.com/metsoc.or.jp/saigai-tokusetu/" title="気象災害委員会" target="_blank">気象災害特設ページ</a></p>
+              </div>
+            </div>
+
+
+            <!-- 人材育成・男女共同参画委員会 -->
+            <!-- 気象学を学ぶ・仕事にする -->
+            <div class="grid_box">
+              <div class="view"> <img src="https://www.metsoc.jp/jinzai/images/top1.jpg" alt="気象学を学ぶ・仕事にする"/> <a href="https://www.metsoc.jp/jinzai/link2.html" title="PRODUCTS">
+                <div class="mask">
+                  <p><i class="fa fa-external-link"></i>&nbsp;&nbsp;Open</p>
+                </div>
+                </a> 
+               </div>
+              <div class="bottom_txt_top">
+                <p class="grid_box_txt_top"><a href="https://www.metsoc.jp/jinzai/link2.html" title="気象学を学ぶ・仕事にする" target="_blank">気象学を学ぶ・仕事にする </a></p>
+              </div>
+            </div>
+
+            <!-- きらきら輝く会員 -->
+            <div class="grid_box">
+              <div class="view"> <img src="https://www.metsoc.jp/jinzai/images/top5_1.jpg" alt="きらきら輝く会員"/> <a href="https://www.metsoc.jp/jinzai/member.html" title="PRODUCTS">
+                <div class="mask">
+                  <p><i class="fa fa-external-link"></i>&nbsp;&nbsp;Open</p>
+                </div>
+                </a> 
+               </div>
+              <div class="bottom_txt_top">
+                <p class="grid_box_txt_top"><a href="https://www.metsoc.jp/jinzai/member.html" title="きらきら輝く会員" target="_blank">きらきら輝く会員 </a></p>
+              </div>
+            </div>
+
+           <h3 >日本〇〇学会からの声明等 </h3>
+           <h4> <a href="https://www.metsoc.jp/statements">声明一覧</a> </h4>
+
+        </article>
+        <!-- / .top_content_inner --> 
+      </div>
+      <!-- / .content --> 
+    </div>
+    <!-- / .main --> 
+  </div>
+
+
+  <!-- 右カラム -->
+  <div class="rightside">
+    <div class="rightside_inner">
+      <div> <a href="https://www.metsoc.jp/membership-2" title="入会案内"><img src="https://www.metsoc.jp/default/wp-content/uploads/2017/09/join_msj_logo-300x90.png" width="300" height="90" alt="入会案内" /></a>
+       </div>
+
+      <div > <a href="https://www.metsoc.jp/supporting_member" title="賛助会員"><img src="https://www.metsoc.jp/default/wp-content/uploads/2021/11/supporter_banner.png" width="300" height="90" alt="賛助会員" /></a></div>
+
+      <div class="right_box"> <a class="service3" href="https://www.metsoc.jp/donation">ご寄付のお願い</a> </div>
+
+      <div class="right_box"> <a class="service3" href="https://www.metsoc.jp/contact">お問い合わせ</a> </div>
+
+      <div class="right_box"> <a class="service3" href="https://www.metsoc.jp/en/">English page</a> </div>
+
+      <!-- / .rightside_inner --> 
+    </div>
+    <!-- / .rightside --> 
+  </div>
+  <!-- / .wrapper --> 
+</div>
+
+<!-- フッター -->
+<footer id="footer">
+  <ul class="footerlink">
+    <li><a href="https://www.metsoc.jp/contact/">お問い合わせ</a></li>
+    <li><a href="company.html">アドレス</a></li>
+    <li><a href="https://www.metsoc.jp/teikan/MSJ_other_kojinjyoho.pdf">個人情報保護方針</a></li>
+  </ul>
+  <p class="copyright">© 1996-2023 日本〇〇学会 The xx Society of Japan. All Rights Reserved.</p>
+</footer>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<!--googleのCDN（ネットワーク経由でコンテンツを提供するサービス）よりjqueryをロード-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+<!--エフェクト動作--> 
+<script src="js/nav.jquery.min.js"></script> <!--右上のメニュー--> 
+<script>
+    $('.nav').nav();
+</script> 
+<script src="js/vertical-responsive-menu.min.js" ></script> <!--左側のメニュー--> 
+<script src="js/footerFixed.js"></script><!--フッター下部固定--> 
+<script src="js/scrolltopcontrol.js"></script><!--スクロールしながらページのトップに戻る--> 
+<!--スライドショー--> 
+<script src="js/jssor.js"></script> 
+<script src="js/jssor.slider.min.js"></script> 
+<script src="js/full-width-slider.js"></script> 
+<!--画像の整列--> 
+<script src="js/jquery.vgrid.min.js"></script> 
+<!--新着情報のスクロール--> 
+<script src="js/jquery.slimscroll.js"></script> 
+<script>
+$(function(){
+	var vg = $(".grid_wrap").vgrid({
+		easing: "easeOutQuint",
+		useLoadImageEvent: true,
+		time: 400,
+		delay: 20,
+		fadeIn: {
+			time: 500,
+			delay: 50,
+			wait: 500
+		}
+	});
+	$(window).load(function(e){
+		vg.vgrefresh();
+	});
+});
+$('.grid_box_info').slimScroll({
+   size: '10px',
+   color: '#c0c0c0',
+});
+</script>
+</body>
+</html>
