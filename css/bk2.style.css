@@ -61,6 +61,11 @@ h1 {
 	top: 20px;
 	left: 30px;
 }
+.h1_logo {
+	position: fixed;
+	top: 20px;
+	left: 30px;
+}
 .h1_2 {
 	position: fixed;
 	top: 65px;
@@ -116,25 +121,16 @@ h1 a:hover {
 	margin: 50px 0 0;
 	padding-right: 20px;
 }
-/*
+
 footer {
-	clear: both;
-	position: relative;
-	width: auto;
-	height: 200px;
-	margin-left: 200px;
-	background: #353535;
+        clear: both;
+        position: relative;
+        width: auto;
+        height: 180px;
+        margin-left: 200px;
+        background: #353535;
 }
-*/
-footer {
-	clear: both;
-	position: relative;
-	width: auto;
-	height: 200px;
-	margin-left: 200px;
-	background: #353535;
-        padding: 1.5em;
-}
+
 
 @media screen and (max-width: 768px) {
 /*ヘッダー*/
@@ -151,6 +147,11 @@ h1 {
 	line-height: 50px;
 }
 .h1_1 {
+	position: fixed;
+	top: 2px;
+	left: 50px;
+}
+.h1_logo {
 	position: fixed;
 	top: 2px;
 	left: 50px;

@@ -100,37 +100,41 @@ section .roman {
 	float: right;
 }
 /*フッターの内容*/
+/*
 .footerlink {
-	position: absolute;
-	top: 15px;
-	left: 50px;
+        position: absolute;
+        top: 15px;
+        left: 50px;
 }
 .footerlink li a {
-	color: #ddd;
-	padding: 0;
-	text-decoration: none;
-	font-size: 1.2rem;
+        color: #ddd;
+        padding: 0;
+        text-decoration: none;
+        font-size: 1.2rem;
 }
 .footerlink a:hover {
-	-webkit-transition: 0.5s;
-	-moz-transition: 0.5s;
-	-ms-transition: 0.5s;
-	-o-transition: 0.5s;
-	transition: 0.5s;
-	opacity: 0.5;
-	filter: alpha(opacity=50);
-	-moz-opacity: 0.5;
+        -webkit-transition: 0.5s;
+        -moz-transition: 0.5s;
+        -ms-transition: 0.5s;
+        -o-transition: 0.5s;
+        transition: 0.5s;
+        opacity: 0.5;
+        filter: alpha(opacity=50);
+        -moz-opacity: 0.5;
 }
+
+
 .copyright { /*著作権表示*/
-	position: absolute;
-	bottom: 10px;
-	right: 10px;
-	margin: 0;
-	font-size: 1.2rem;
-	color: #999;
-	height: 20px;
-	line-height: 20px;
+        position: absolute;
+        bottom: 10px;
+        right: 10px;
+        margin: 0;
+        font-size: 1.2rem;
+        color: red;
+        height: 20px;
+        line-height: 20px;
 }
+
 /*トップページ右サイド*/
 .rightside p {
 	margin: 0;
